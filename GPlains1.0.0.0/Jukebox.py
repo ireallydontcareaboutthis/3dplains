@@ -63,6 +63,7 @@ def drawcube():
         for vert in face:
             pos, color = allpoints[vert]
             glColor3fv(color)
+    glTranslatef(0, -3, 0) 
 #!/usr/bin/env python
 
 """Draw a cube on the screen. every frame we orbit
